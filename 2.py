@@ -10,6 +10,6 @@ minn = 5
 maxx = 15
 lst2 = []
 for i in range(len(lst)):
-    if minn<lst[i]<maxx:
+    if minn<=lst[i]<=maxx:
         lst2.append(i)
 print(lst2)

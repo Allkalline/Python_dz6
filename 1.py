@@ -7,7 +7,9 @@ a1 = int(input("a1: "))
 d = int(input("d: "))
 k = int(input("k: "))
 lst = [a1+i*d for i in range(k)]
-
-
 print(lst)
+
+
+#for i in range(k):
+ #   print(a1 + i * d)
 
